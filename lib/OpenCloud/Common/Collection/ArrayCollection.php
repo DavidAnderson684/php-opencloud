@@ -43,6 +43,7 @@ abstract class ArrayCollection extends ArrayAccess implements Countable
     /**
      * @return int
      */
+    #[\ReturnTypeWillChange]
     public function count()
     {
         return count($this->elements);
